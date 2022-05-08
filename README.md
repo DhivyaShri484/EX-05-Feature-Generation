@@ -132,6 +132,7 @@ df4
 ```
 
 # Titanic.csv :
+```
 import pandas as pd
 df=pd.read_csv("titanic_dataset.csv")
 df
@@ -185,7 +186,7 @@ from sklearn.preprocessing import RobustScaler
 sc3=RobustScaler()
 df5=pd.DataFrame(sc3.fit_transform(df1),columns=['Passenger','Survived','Pclass','Sex','Age','SibSp','Parch','Fare','Embarked'])
 df5
-
+```
 # OUPUT
 # Data.csv:
 ![image](https://user-images.githubusercontent.com/94505585/167287271-cd3e6b3e-57c4-445c-8d6d-b3b02c83d8db.png) ![image](https://user-images.githubusercontent.com/94505585/167287278-77c82a27-7def-4b32-b012-4f5f08e39bf0.png) ![image](https://user-images.githubusercontent.com/94505585/167287281-2f0ed0d1-6cac-47ea-9ec6-b6cc0e4c83da.png)
